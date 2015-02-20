@@ -26,10 +26,10 @@ just a simple respository
     </tr>
          <tr>  
         <td>  
-          <asp:Label ID="lblDob" runat="server" Text="DOB"></asp:Label>   
+          <Label ID="lblDob"  Text="DOB"></Label>   
         </td> 
              <td>  
-                 <asp:TextBox  id="datepicker1" runat="server" TextMode="Date"></asp:TextBox>  
+                 <TextBox  id="datepicker1"  TextMode="Date"></TextBox>  
             <%--<asp:TextBox  id="datepicker" runat="server"></asp:TextBox>  --%>
                  <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="datepicker1" ErrorMessage="Please Enter DOB"></asp:RequiredFieldValidator>
         </td>   
